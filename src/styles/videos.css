@@ -1,0 +1,123 @@
+.vidHero {
+    width: 100%;
+    height: 60vh;
+    margin: 0;
+    padding: 0 0;
+    text-align: center;
+    background-color: #000000;
+    background-image: url("../assets/VideoHero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.latestVid {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    gap: 50px;
+    padding: 24px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.162);
+    transition: transform 0.3s ease;
+
+}
+
+.otherVids {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.vidBtn {
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 24px;
+    font-family: "Avenir", cursive;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .vidHero {
+        height: 40vh;
+    }
+    .latestVid {
+        gap: 24px;
+    }
+    .vidContent {
+        width: 560px;
+    }
+    .otherVids {
+        gap: 24px;
+        flex-direction: column;
+        align-items: center;
+        max-width: none;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .vidHero {
+        height: 30vh;
+    }
+    .latestVid {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    .broodVid iframe {
+        width: 100%;
+        height: 100%;
+    }
+    .vidContent {
+        width: 300px;
+    }
+    /* .vidContent .sectionTitle {
+        font-size: 24px;
+        line-height: 32px;
+    } */
+    .vid
+    .otherVids {
+        gap: 12px;
+        max-width: none;
+    }
+    .otherVids iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    
+}

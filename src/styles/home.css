@@ -1,0 +1,393 @@
+
+.HomeMain {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0 0;
+    text-align: center;
+    background-color: #ffffff;
+    background-image: url("../assets/heroBG.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-content {
+    max-width: 1200px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  
+  }
+  
+  .hero-content h1 {
+    font-size: 80px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: left;
+    font-family: "Sedgwick Ave Display", cursive;
+    max-width: 600px;
+    line-height: 80px;
+  }
+  
+  .hero-content p {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: left;
+    max-width: 600px;
+    line-height: 40px;
+  }
+  
+  .latestMusic {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+  
+  }
+  
+  .latestMusic-content {
+    width: 588px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 50px;
+  }
+  
+  .sectionTitle {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    color: #757575;
+    text-align: left;
+    max-width: 588px;
+    line-height: 40px;
+    font-family: "SansSerif", cursive;
+    margin-bottom: 8px;
+  }
+  
+  .songTitle {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    text-align: left;
+    max-width: 588px;
+    line-height: 80px;
+    font-family: "Avenir", cursive;
+  }
+  
+  .sectionDescription {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    text-align: left;
+    max-width: 588px;
+    line-height: 36px;
+    font-family: "Avenir", cursive;
+  }
+  
+  .broodImg {
+    width: 588px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .broodImg img {
+    width: 588px;
+    width: 100%;
+    height: 588px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .listening-buttons {
+    width: 588px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .listening-buttons button {
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 24px;
+    font-family: "Avenir", cursive;
+  }
+  
+  .moreMusic {
+    font-size: 16px;
+    font-weight: 600;
+    font-style:italic;
+    margin-top: 24px;
+    padding: 0;
+    color: #A4350A;
+    text-align: left;
+    text-decoration: underline;
+    max-width: 588px;
+    line-height: 40px;
+    font-family: "Avenir", cursive;
+  
+  }
+  
+  .latestVideo {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .latestVideo-content {
+    width: 100%;
+    height: 668px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+  }
+  
+  .about {
+    margin-bottom: 50px;
+  }
+  
+  .about-content {
+    margin-left: 50px;
+  }
+  
+  .about-content p {
+    max-width: 500px;
+  }
+  
+  .join {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 894px;
+  }
+  
+  .join p {
+    text-align: center;
+  }
+  
+  .joinForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    max-width: 894px;
+  }
+  
+  .joinForm input {
+    width: 435px;
+    height: 76px;
+    padding: 16px 20px;
+    border-radius: 8px;
+    background-color: #EEEEEE;
+    border: 1px solid #bcbcbc6d;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Avenir", cursive;
+  }
+  
+  .joinForm button {
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 24px;
+    font-family: "Avenir", cursive;
+  }
+
+
+
+
+  @media  screen and (max-width: 1024px) {
+    .hero {
+      height: 50vh;
+    }
+    .hero-content {
+      max-width: 976px;
+    }
+    .latestMusic {
+      max-width: 976px;
+    }
+    .latestVideo {
+      max-width: 976px;
+    }
+    .sectionTitle {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .songTitle {
+      font-size: 32px;
+      line-height: 40px;
+    }
+    .sectionDescription {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .hero {
+      height: 40vh;
+    }
+    .hero-content {
+      max-width: 380px;
+    }
+    .hero-content h1 {
+      font-size: 48px;
+      line-height: 56px;
+    }
+    .hero-content p {
+      font-size: 16px;
+      line-height: 30px;
+    }
+    
+    .latestMusic {
+      max-width: 380px;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+    }
+    .latestMusic-content {
+      margin-right: 0;
+      margin-bottom: 16px;
+    }
+    .listening-buttons {
+      margin-top: 24px;
+    }
+    .listening-buttons button {
+      width: 100%;
+    }
+    .broodImg img {
+      height: auto;
+    }
+    .latestVideo {
+      max-width: 380px;
+    }
+    .latestVideo iframe {
+      height: 260px;
+    }
+    .sectionTitle {
+      font-size: 20px;
+      line-height: 28px;
+    }
+    .songTitle {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .sectionDescription {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .about-content {
+      margin-left: 0;
+      margin-top: 8px;
+    }
+    .join {
+      max-width: 380px;
+    }
+    .joinForm input {
+      width: 100%;
+      height: 48px;
+    }
+    
+  }

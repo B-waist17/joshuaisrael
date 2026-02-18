@@ -1,0 +1,90 @@
+.marquee-section {
+    overflow: hidden;
+    padding: 80px 0;
+    background: #000000;
+  }
+  
+  .marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+  .marquee::before,
+.marquee::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 120px;
+  height: 100%;
+  z-index: 2;
+}
+
+.marquee::before {
+  left: 0;
+  background: linear-gradient(to right, black, transparent);
+}
+
+.marquee::after {
+  right: 0;
+  background: linear-gradient(to left, black, transparent);
+}
+  
+  .marquee-track {
+    display: flex;
+    width: max-content;
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+  .marquee-track:hover {
+    animation-play-state: paused;
+  }
+  
+  
+  .marquee-track img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+
+  @keyframes scroll-left {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  @keyframes scroll-right {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .scroll-left {
+    animation: scroll-left 60s linear infinite;
+  }
+  
+  .scroll-right {
+    animation: scroll-right 60s linear infinite;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .marquee-track img {
+      width: 300px;
+      height: 300px;
+    }
+    
+  }
+
+  @media (max-width: 768px) {
+    .marquee-track img {
+      width: 200px;
+      height: 200px;
+    }
+  }
