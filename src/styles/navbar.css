@@ -2,14 +2,16 @@
     box-sizing: border-box;
 }
 
-.navContainer{
-    position: fixed;
+.navbarContainer{
+    position: relative;
     width: 100%;
     top: 0;
     left: 0;
     background-color: none;
-    z-index: 999;
-
+    z-index: 10;
+    margin-bottom: -150px;
+    overflow: hidden;
+    padding-top: 60px;
 }
 
 .navbar{
@@ -17,14 +19,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    width: 1200px;
+    width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    height: 64px;
-    background-color: none;
-    
-    
-    
+    height: 64px;  
+
 }
 
 .navbar ul{
