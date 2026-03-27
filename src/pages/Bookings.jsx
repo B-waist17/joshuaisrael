@@ -7,8 +7,8 @@ export default function Bookings() {
                 kindly fill out the form below and we’ll be in touch.
             </p>
             <div className="bookingsForm">
-                <iframe className='form' src="https://docs.google.com/forms/d/e/1FAIpQLSdD2LfSQSQoySvW1VTwq__W89lIJeZ2QckaN9QO2lkVonApOg/viewform?embedded=true" 
-                width="1200px" height="2715" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>  
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfd7xf9ExxcfiamK2ZF-WkUHBZybAfgA93EjujcpL3ATJdD3w/viewform?embedded=true" 
+                width="640" height="3474" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> 
             </div>
             
         </div>

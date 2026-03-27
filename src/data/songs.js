@@ -2,9 +2,6 @@ import cover1 from "../assets/JOSHUA-ISRAEL---TASTE-AND-SEE1b.jpg"
 import cover2 from "../assets/broodImg.jpg"
 import cover3 from "../assets/JOSHUA-ISRAEL-X-DEBORAH---I-BELIEVE1.jpg"
 import cover4 from "../assets/JOSHUA ISRAEL PROPHETIC CHANT II.png"
-import cover5 from "../assets/image 1.png"
-import cover6 from "../assets/image 1.png"
-import cover7 from "../assets/image 1.png"
 import cover8 from "../assets/image 1.png"
 
 export const songs = [
@@ -23,9 +20,9 @@ export const songs = [
     title: "Brood (Live)",
     cover: cover2,
     spotifyUrl: "https://open.spotify.com/track/yyyyy",
-    appleUrl: "https://music.apple.com/us/song/taste-and-see-live/1817449952",
-    youtubeUrl: "https://music.youtube.com/watch?v=rHB7fuQVcZc&si=hIPYr_C-ILhkOeRu",
-    deezerUrl: "https://link.deezer.com/s/32r8pnmTPBkThP6VXRjLp",
+    appleUrl: "https://music.apple.com/us/song/brood/1868566498",
+    youtubeUrl: "https://music.youtube.com/playlist?list=OLAK5uy_lOMPcLfNpr7nCN1jdaJjwydBtfzBg9ChI&si=FUDNUxVOIQT3GCkT",
+    deezerUrl: "https://link.deezer.com/s/32Nlsp6lMM3XXUyftblSR",
     itunesUrl: "#",
   },
   {
@@ -33,9 +30,9 @@ export const songs = [
     title: "I Believe (Live)",
     cover: cover3,
     spotifyUrl: "https://open.spotify.com/track/yyyyy",
-    appleUrl: "https://music.apple.com/us/song/taste-and-see-live/1817449952",
+    appleUrl: "https://music.apple.com/us/album/i-believe-live-single/1795667807",
     youtubeUrl: "https://music.youtube.com/watch?v=rHB7fuQVcZc&si=hIPYr_C-ILhkOeRu",
-    deezerUrl: "https://link.deezer.com/s/32r8pnmTPBkThP6VXRjLp",
+    deezerUrl: "https://link.deezer.com/s/32NlrwyhlWts5UAGXddFY",
     itunesUrl: "#",
   },
   {
@@ -43,39 +40,9 @@ export const songs = [
     title: "Prophetic Chants II",
     cover: cover4,
     spotifyUrl: "https://open.spotify.com/track/yyyyy",
-    appleUrl: "https://music.apple.com/us/song/taste-and-see-live/1817449952",
-    youtubeUrl: "https://music.youtube.com/watch?v=rHB7fuQVcZc&si=hIPYr_C-ILhkOeRu",
-    deezerUrl: "https://link.deezer.com/s/32r8pnmTPBkThP6VXRjLp",
-    itunesUrl: "#",
-  },
-  {
-    id: "spotifyTrackID2",
-    title: "Esé O",
-    cover: cover1,
-    spotifyUrl: "https://open.spotify.com/track/yyyyy",
-    appleUrl: "https://music.apple.com/us/song/taste-and-see-live/1817449952",
-    youtubeUrl: "https://music.youtube.com/watch?v=rHB7fuQVcZc&si=hIPYr_C-ILhkOeRu",
-    deezerUrl: "https://link.deezer.com/s/32r8pnmTPBkThP6VXRjLp",
-    itunesUrl: "#",
-  },
-  {
-    id: "spotifyTrackID2",
-    title: "Praise Medeley",
-    cover: cover1,
-    spotifyUrl: "https://open.spotify.com/track/yyyyy",
-    appleUrl: "https://music.apple.com/us/song/taste-and-see-live/1817449952",
-    youtubeUrl: "https://music.youtube.com/watch?v=rHB7fuQVcZc&si=hIPYr_C-ILhkOeRu",
-    deezerUrl: "https://link.deezer.com/s/32r8pnmTPBkThP6VXRjLp",
-    itunesUrl: "#",
-  },
-  {
-    id: "spotifyTrackID2",
-    title: "In All The Earth",
-    cover: cover1,
-    spotifyUrl: "https://open.spotify.com/track/yyyyy",
-    appleUrl: "https://music.apple.com/us/song/taste-and-see-live/1817449952",
-    youtubeUrl: "https://music.youtube.com/watch?v=rHB7fuQVcZc&si=hIPYr_C-ILhkOeRu",
-    deezerUrl: "https://link.deezer.com/s/32r8pnmTPBkThP6VXRjLp",
+    appleUrl: "https://music.apple.com/us/song/prophetic-chants-ii/1853391669",
+    youtubeUrl: "https://music.youtube.com/playlist?list=OLAK5uy_nux3jbrRTtyKlYWeEDpafMpOQH0TfmdSQ&si=mut4CWskk8BUKZe_",
+    deezerUrl: "https://link.deezer.com/s/32NlngslScB5dgxP5a98f",
     itunesUrl: "#",
   },
   {
@@ -83,9 +50,9 @@ export const songs = [
     title: "The Kingdom EP",
     cover: cover8,
     spotifyUrl: "https://open.spotify.com/track/yyyyy",
-    appleUrl: "https://music.apple.com/us/song/taste-and-see-live/1817449952",
+    appleUrl: "https://music.apple.com/us/album/the-kingdom-ep/1753456519",
     youtubeUrl: "https://music.youtube.com/watch?v=rHB7fuQVcZc&si=hIPYr_C-ILhkOeRu",
-    deezerUrl: "https://link.deezer.com/s/32r8pnmTPBkThP6VXRjLp",
+    deezerUrl: "https://link.deezer.com/s/32Nlmes1YgSX37ULkoiPD",
     itunesUrl: "#",
   },
 ]
