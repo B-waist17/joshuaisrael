@@ -10,7 +10,7 @@ const Menu = () => (
     <Link to="/about" spy={true} smooth={true} offset={-70} duration={500} >About</Link>
     <Link to="/music" spy={true} smooth={true} offset={-70} duration={500} >Music</Link>
     <Link to="/videos" spy={true} smooth={true} offset={-70} duration={500} >Videos</Link>
-    <Link to="/booking" spy={true} smooth={true} offset={-70} duration={500} >Booking</Link>
+    <Link to="/bookings" spy={true} smooth={true} offset={-70} duration={500} >Booking</Link>
     </>
 )
 
@@ -48,7 +48,7 @@ export default function Navbar() {
                             <div className="navMenu-container-links">
                                 <Menu />
                                 <div className="navMenu-container-links-social">
-                                    <a href="#">Spotify</a>
+                                    <a href="https://open.spotify.com/artist/0orGfqicES8VglKwgfIN7F?si=f1HRW5iRRCOvU33XmkDCKg">Spotify</a>
                                     <a href="#">Apple</a>
                                     <a href="#">Instagram</a>
                                     <a href="#">Youtube</a>

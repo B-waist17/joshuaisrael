@@ -57,29 +57,6 @@
 }
 
 
-@media screen and (max-width: 768px) {
-    .navbarContainer{
-        padding-top: 20px;
-        padding-right: 16px;
-        padding-left: 16px;
-    }
-    .navbar ul{
-        display: none;
-    }
-
-    .logo img{
-        width: 102px;
-        height: 35px;
-        background-color: none;
-    }
-
-    .navMenu{
-        display: block;
-        cursor: pointer;
-    }
-    
-}
-
 .navMenu-container {
     display: flex;
     justify-content: flex-end;
@@ -110,4 +87,41 @@
     flex-direction: column;
     gap: 0.5rem;
     margin: 8px 0;
+}
+
+.navMenu-container-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navbarContainer{
+        padding-top: 20px;
+        padding-right: 16px;
+        padding-left: 16px;
+        overflow: unset;
+    }
+
+    .navMenu-container {
+        top: 60px;
+        right: 16px;
+    }
+    .navbar{
+        height: auto;
+    }
+    .navbar ul{
+        display: none;
+    }
+
+    .logo img{
+        width: 102px;
+        height: 35px;
+        background-color: none;
+    }
+
+    .navMenu{
+        display: block;
+        cursor: pointer;
+    }
+    
 }
